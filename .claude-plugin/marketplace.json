@@ -1,0 +1,15 @@
+{
+  "name": "play-console-assets",
+  "owner": {
+    "name": "mosjin",
+    "url": "https://github.com/mosjin/play-console-assets-skill"
+  },
+  "description": "把品牌icon/feature graphic/手机截图更新级联同步到Play Console默认商店列表，踩过的坑（字段定位、单文件input、Add两步流程、未存即丢）都写进流程里。",
+  "plugins": [
+    {
+      "name": "assetpub",
+      "source": "./",
+      "description": "重新设计品牌icon后，级联更新App内嵌logo/静态页favicon/Play Console商店列表图形资源（icon、feature graphic、手机截图）的完整流程。"
+    }
+  ]
+}
